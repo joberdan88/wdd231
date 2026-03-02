@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .student-name {
+    font-size: 1.5rem;
+    /* aumenta o nome Jonas Oberdan */
+    font-weight: bold;
+}
+
+header nav a {
+    font-size: 1.3rem;
+    /* aumenta os links Home, Chamber, Final Project */
+    font-weight: bold;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
