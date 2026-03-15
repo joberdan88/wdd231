@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .list .member-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .list .member-card img {
+        max-width: 100px;
+        margin-right: 1rem;
+    }
+}

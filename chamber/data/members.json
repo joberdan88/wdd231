@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Rio Tech Solutions",
+        "address": "Av. Atlântica 1000, Rio de Janeiro",
+        "phone": "+55 (21) 1111-1111",
+        "website": "https://riotech.com",
+        "image": "company1.png",
+        "membership": "Gold"
+    },
+    {
+        "name": "Carioca Foods",
+        "address": "Rua das Laranjeiras 200, Rio de Janeiro",
+        "phone": "+55 (21) 2222-2222",
+        "website": "https://cariocafoods.com",
+        "image": "company2.png",
+        "membership": "Silver"
+    },
+    {
+        "name": "Beachwear Rio",
+        "address": "Copacabana 300, Rio de Janeiro",
+        "phone": "+55 (21) 3333-3333",
+        "website": "https://beachwearrio.com",
+        "image": "company3.png",
+        "membership": "Member"
+    },
+    {
+        "name": "Green Energy Brasil",
+        "address": "Centro 400, Rio de Janeiro",
+        "phone": "+55 (21) 4444-4444",
+        "website": "https://greenenergybr.com",
+        "image": "company4.png",
+        "membership": "Gold"
+    },
+    {
+        "name": "Rio Tours",
+        "address": "Ipanema 500, Rio de Janeiro",
+        "phone": "+55 (21) 5555-5555",
+        "website": "https://riotours.com",
+        "image": "company5.png",
+        "membership": "Silver"
+    },
+    {
+        "name": "Carioca Coffee",
+        "address": "Botafogo 600, Rio de Janeiro",
+        "phone": "+55 (21) 6666-6666",
+        "website": "https://cariocacoffee.com",
+        "image": "company6.png",
+        "membership": "Member"
+    },
+    {
+        "name": "Rio Fitness Club",
+        "address": "Leblon 700, Rio de Janeiro",
+        "phone": "+55 (21) 7777-4455",
+        "website": "https://riofitnessclub.com",
+        "image": "company7.png",
+        "membership": "Silver"
+    }
+]
