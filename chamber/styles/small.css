@@ -1,5 +1,14 @@
 body {
+    background-color: #f0f4f8;
     font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: white;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 header,
@@ -65,4 +74,99 @@ main {
 .member-card img {
     max-width: 100%;
     height: auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    background: #0066cc;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #004080;
+}
+
+.spotlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.spotlights .card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: auto;
+    /* centraliza */
+}
+
+.spotlights .card img {
+    max-width: 120px;
+    border-radius: 6px;
+}
+
+.events {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.events p {
+    background: #f0f4f8;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.weather {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.weather p {
+    margin: 0.3rem 0;
 }
