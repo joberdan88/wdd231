@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rio Chamber of Commerce - Join</title>
+  <meta name="description" content="Join the Rio Chamber of Commerce by filling out the membership application form.">
+  <meta name="author" content="Jonas Oberdan">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+  <header>
+    <h1>Rio Chamber of Commerce</h1>
+    <nav>
+      <button id="menu-toggle">☰ Menu</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html" class="active">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Membership Application</h2>
+
+    <!-- Form -->
+    <form method="get" action="thankyou.html">
+      <label>
+        First Name:
+        <input type="text" name="firstname" required title="First Name" autocomplete="given-name">
+      </label>
+
+      <label>
+        Last Name:
+        <input type="text" name="lastname" required title="Last Name" autocomplete="family-name">
+      </label>
+
+      <label>
+        Organizational Title:
+        <input type="text" name="orgtitle" title="Organization Title" autocomplete="organization-title"
+          pattern="[A-Za-z\\-\\s]{7,}">
+      </label>
+
+      <label>
+        Email:
+        <input type="email" name="email" required title="Email" autocomplete="email" placeholder="example@email.com">
+      </label>
+
+      <label>
+        Mobile Phone:
+        <input type="tel" name="phone" required title="Mobile Phone" autocomplete="tel">
+      </label>
+
+      <label>
+        Business Name:
+        <input type="text" name="organization" required title="Organization" autocomplete="organization">
+      </label>
+
+      <label>
+        Membership Level:
+        <select name="membership" required>
+          <option value="np">NP Membership</option>
+          <option value="bronze">Bronze Membership</option>
+          <option value="silver">Silver Membership</option>
+          <option value="gold">Gold Membership</option>
+        </select>
+      </label>
+
+      <label>
+        Description:
+        <textarea name="description" title="Business Description"></textarea>
+      </label>
+
+      <!-- Hidden timestamp -->
+      <input type="hidden" id="timestamp" name="timestamp">
+
+      <input type="submit" value="Apply Now">
+    </form>
+
+    <!-- Membership Cards -->
+    <section class="membership-cards">
+      <div class="card">
+        <h3>NP Membership</h3>
+        <a href="#npModal">See Benefits</a>
+      </div>
+      <div class="card">
+        <h3>Bronze Membership</h3>
+        <a href="#bronzeModal">See Benefits</a>
+      </div>
+      <div class="card">
+        <h3>Silver Membership</h3>
+        <a href="#silverModal">See Benefits</a>
+      </div>
+      <div class="card">
+        <h3>Gold Membership</h3>
+        <a href="#goldModal">See Benefits</a>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="npModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>NP Membership Benefits</h2>
+        <p>No fee, access to community events.</p>
+      </div>
+    </div>
+
+    <div id="bronzeModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Bronze Membership Benefits</h2>
+        <p>Basic advertising, event discounts.</p>
+      </div>
+    </div>
+
+    <div id="silverModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Silver Membership Benefits</h2>
+        <p>Spotlight positions, more event discounts.</p>
+      </div>
+    </div>
+
+    <div id="goldModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Gold Membership Benefits</h2>
+        <p>Premium advertising, exclusive events, maximum discounts.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rio Chamber of Commerce</p>
+    <p>Developed by Jonas Oberdan | WDD 231</p>
+    <p>Last Modified: <span id="last-modified"></span></p>
+  </footer>
+
+  <script src="scripts/script.js" defer></script>
+  <script>
+    // Preenche o timestamp automaticamente
+    document.getElementById("timestamp").value = new Date().toISOString();
+  </script>
+</body>
+
+</html>
