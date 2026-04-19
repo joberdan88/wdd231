@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Trails Guide - Explore the Best Hiking in Rio de Janeiro</title>
+    <meta name="description" content="Discover the best hiking trails in Rio de Janeiro, from beginner-friendly walks to challenging mountain climbs with breathtaking views.">
+    <meta name="author" content="Rio Trails Guide Team">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Rio Trails Guide - Hiking in Rio de Janeiro">
+    <meta property="og:description" content="A comprehensive guide to the most beautiful hiking trails in Rio de Janeiro.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://example.com/project/index.html">
+    
+    <link rel="icon" href="images/favicon.png">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Rio Trails Guide</div>
+        <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1200&q=80');">
+            <div class="hero-content">
+                <h2>Experience Rio from Above</h2>
+                <p>Explore the most breathtaking hiking trails in the Marvelous City.</p>
+                <a href="trails.html" class="btn">Explore Trails</a>
+            </div>
+        </section>
+
+        <section id="featured-trails">
+            <h2>Featured Trails</h2>
+            <div class="card-grid" id="featured-grid">
+                <div class="card">
+                    <img src="images/dois-irmaos.jpg" alt="Morro Dois Irmãos" loading="lazy">
+                    <div class="card-info">
+                        <h3>Morro Dois Irmãos</h3>
+                        <p>One of the most iconic views of Rio. Moderate difficulty.</p>
+                        <button class="btn view-details" data-trail="1">View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/telegrafo.jpg" alt="Pedra do Telégrafo" loading="lazy">
+                    <div class="card-info">
+                        <h3>Pedra do Telégrafo</h3>
+                        <p>Famous for the optical illusion photo. Moderate difficulty.</p>
+                        <button class="btn view-details" data-trail="6">View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&q=80&w=1000" alt="Mirante Dona Marta" loading="lazy">
+                    <div class="card-info">
+                        <h3>Mirante Dona Marta</h3>
+                        <p>The best panoramic view of Christ and Sugarloaf. Easy difficulty.</p>
+                        <button class="btn view-details" data-trail="8">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="last-visit">
+            <p id="visit-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rio Trails Guide | Author: Rio Hiking Community</p>
+        <p><a href="https://www.youtube.com" target="_blank">Video Demonstration</a></p>
+        <p><a href="site-plan.html">Site Plan</a> | <a href="attributions.html">Attributions</a></p>
+    </footer>
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - Rio de Janeiro Hiking Trails Guide</title>
+    <style>
+        :root {
+            --primary-color: #2d5a27; /* Forest Green */
+            --secondary-color: #f4a460; /* Sandy Yellow */
+            --accent-color: #8b4513; /* Earthy Brown */
+            --background-color: #f0fdf4; /* Very Light Green */
+            --text-color: #1a2f1a;
+            --heading-font: 'Montserrat', sans-serif;
+            --body-font: 'Roboto', sans-serif;
+        }
+
+        body {
+            font-family: var(--body-font);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--heading-font);
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .color-palette {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .color-box {
+            width: 150px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .primary { background-color: var(--primary-color); }
+        .secondary { background-color: var(--secondary-color); color: #000; text-shadow: none; }
+        .accent { background-color: var(--accent-color); }
+        .bg { background-color: var(--background-color); color: #000; text-shadow: none; border: 1px solid #ccc; }
+
+        .wireframe-box {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin-top: 10px;
+            background: #eee;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rio de Janeiro Hiking Trails Guide</h1>
+        <p>Site Plan</p>
+    </header>
+
+    <main>
+        <section id="site-name">
+            <h2>Site Name</h2>
+            <p><strong>Rio Trails Guide</strong></p>
+            <p>Selected because it is descriptive, easy to remember, and focuses on the core offering: a guide to the best hiking spots in Rio de Janeiro.</p>
+        </section>
+
+        <section id="site-purpose">
+            <h2>Site Purpose</h2>
+            <p>The Rio Trails Guide aims to provide a comprehensive resource for locals and tourists who want to explore Rio de Janeiro's natural beauty through hiking. It offers detailed trail descriptions, safety tips, equipment recommendations, and a community-driven directory of routes.</p>
+        </section>
+
+        <section id="scenarios">
+            <h2>Scenarios</h2>
+            <ol>
+                <li>"I'm a beginner hiker looking for a safe trail with a great view for my first time in Rio. Which one should I choose?"</li>
+                <li>"What specific gear do I need for a long hike like Pedra da Gávea to ensure safety and comfort?"</li>
+                <li>"Where can I find reliable information about trail difficulty and estimated time for completion?"</li>
+            </ol>
+        </section>
+
+        <section id="color-scheme">
+            <h2>Color Scheme</h2>
+            <div class="color-palette">
+                <div class="color-box primary">Primary: Forest Green (#2d5a27)</div>
+                <div class="color-box secondary">Secondary: Sandy Yellow (#f4a460)</div>
+                <div class="color-box accent">Accent: Earthy Brown (#8b4513)</div>
+                <div class="color-box bg">Background: Light Green (#f0fdf4)</div>
+            </div>
+            <p>Used on: Headings (Primary), Buttons/Links (Secondary), Borders/Emphasis (Accent), Page Background (Background).</p>
+        </section>
+
+        <section id="typography">
+            <h2>Typography</h2>
+            <p><strong>Montserrat:</strong> Used for all headings to provide a modern, bold, and adventurous look.</p>
+            <p><strong>Roboto:</strong> Used for body text and navigation for high readability across all devices.</p>
+        </section>
+
+        <section id="wireframes">
+            <h2>Wireframe</h2>
+            <h3>Mobile View</h3>
+            <div class="wireframe-box">
+                <p>[ Hamburger Menu ] [ Logo/Site Name ]</p>
+                <p>--- Hero Section (Image + Title) ---</p>
+                <p>--- Search / Filter Trails ---</p>
+                <p>--- Featured Trail Cards (Stacked) ---</p>
+                <p>--- Safety Tip of the Day ---</p>
+                <p>--- Footer (Links, Social, Video) ---</p>
+            </div>
+
+            <h3>Desktop View</h3>
+            <div class="wireframe-box">
+                <p>[ Logo ] [ Home | Trails | Tips | Contact ]</p>
+                <p>--- Hero Section (Large Background Image + CTA) ---</p>
+                <p>--- Grid of Featured Trail Categories ---</p>
+                <p>--- Recent Trail Updates / Weather API Widget ---</p>
+                <p>--- Footer (3 Columns: About, Resources, Social) ---</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rio Trails Guide | <a href="index.html">View Site</a></p>
+    </footer>
+</body>
+</html>

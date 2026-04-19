@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Trails Directory - Rio Trails Guide</title>
+    <meta name="description" content="Explore our complete list of 15+ hiking trails in Rio de Janeiro, filtered by difficulty and duration.">
+    <meta name="author" content="Rio Trails Guide Team">
+    
+    <link rel="icon" href="images/favicon.png">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Rio Trails Guide</div>
+        <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html" class="active">Trails</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Trail Directory</h1>
+            <p>Explore our curated list of the best trails in the city. Click "View Details" to learn more about each route.</p>
+            
+            <div class="filter-controls" style="margin-bottom: 2rem;">
+                <label for="difficulty-filter">Filter by Difficulty:</label>
+                <select id="difficulty-filter">
+                    <option value="all">All Difficulties</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Hard">Hard</option>
+                </select>
+            </div>
+
+            <div class="card-grid" id="trails-grid">
+                <!-- Dynamically populated by trails.js -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rio Trails Guide | Author: Rio Hiking Community</p>
+        <p><a href="https://www.youtube.com" target="_blank">Video Demonstration</a></p>
+        <p><a href="site-plan.html">Site Plan</a> | <a href="attributions.html">Attributions</a></p>
+    </footer>
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="scripts/trails.js" type="module"></script>
+</body>
+</html>

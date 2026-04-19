@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Morro Dois Irmãos",
+        "difficulty": "Moderate",
+        "time": "2 hours",
+        "description": "One of the most famous views in Rio, overlooking Leblon and Ipanema.",
+        "length": "1.5 km",
+        "elevation": "533 m",
+        "highlights": ["Panoramic view", "Vidigal community", "Ocean views"],
+        "image": "images/dois-irmaos.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pedra da Gávea",
+        "difficulty": "Hard",
+        "time": "6 hours",
+        "description": "The most challenging trail in the city with a steep climb.",
+        "length": "3.0 km",
+        "elevation": "844 m",
+        "highlights": ["Carrasqueira climb", "Gávea Stone Face", "Barra view"],
+        "image": "images/gavea.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pedra Bonita",
+        "difficulty": "Easy",
+        "time": "1 hour",
+        "description": "A relatively easy hike with a massive reward at the top.",
+        "length": "1.2 km",
+        "elevation": "696 m",
+        "highlights": ["Hang gliding ramp", "São Conrado view", "Beginner friendly"],
+        "image": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": 4,
+        "name": "Morro da Urca",
+        "difficulty": "Easy",
+        "time": "45 min",
+        "description": "The first hill of the Sugarloaf cable car route.",
+        "length": "1.1 km",
+        "elevation": "220 m",
+        "highlights": ["Sugarloaf access", "Guanabara Bay", "Family friendly"],
+        "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": 5,
+        "name": "Pico da Tijuca",
+        "difficulty": "Moderate",
+        "time": "3 hours",
+        "description": "The highest point in Tijuca National Park.",
+        "length": "2.8 km",
+        "elevation": "1021 m",
+        "highlights": ["Highest peak", "Stone stairs", "Forest views"],
+        "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+        "id": 6,
+        "name": "Pedra do Telégrafo",
+        "difficulty": "Moderate",
+        "time": "2 hours",
+        "description": "Famous for the 'hanging' photo illusion.",
+        "length": "1.5 km",
+        "elevation": "354 m",
+        "highlights": ["Photo illusion", "Restinga view", "Wild beaches"],
+        "image": "images/telegrafo.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Vista Chinesa",
+        "difficulty": "Easy",
+        "time": "30 min",
+        "description": "A paved path leading to a beautiful Chinese-style gazebo.",
+        "length": "0.5 km",
+        "elevation": "380 m",
+        "highlights": ["Chinese Pavilion", "Christ view", "Easy access"],
+        "image": "https://images.unsplash.com/photo-1563811771046-ba984ff30900?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+        "id": 8,
+        "name": "Mirante Dona Marta",
+        "difficulty": "Easy",
+        "time": "20 min",
+        "description": "Short walk to one of the most famous viewpoints in Rio.",
+        "length": "0.3 km",
+        "elevation": "362 m",
+        "highlights": ["Sugarloaf view", "Botafogo Bay", "Helipad"],
+        "image": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": 9,
+        "name": "Bico do Papagaio",
+        "difficulty": "Hard",
+        "time": "4 hours",
+        "description": "A sharp peak that resembles a parrot's beak.",
+        "length": "2.5 km",
+        "elevation": "989 m",
+        "highlights": ["Sharp peak", "360 view", "Forest hike"],
+        "image": "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 10,
+        "name": "Corcovado via Parque Lage",
+        "difficulty": "Hard",
+        "time": "4 hours",
+        "description": "The hiking route to reach Christ the Redeemer.",
+        "length": "2.2 km",
+        "elevation": "710 m",
+        "highlights": ["Christ statue", "Parque Lage", "Atlantic Forest"],
+        "image": "https://images.unsplash.com/photo-1593995863951-57c27e518295?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 11,
+        "name": "Morro da Babilônia",
+        "difficulty": "Easy",
+        "time": "1.5 hours",
+        "description": "A trail through an environmentally protected area in Leme.",
+        "length": "1.0 km",
+        "elevation": "250 m",
+        "highlights": ["Copacabana view", "Environmental area", "Short hike"],
+        "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 12,
+        "name": "Pedra do Pontal",
+        "difficulty": "Moderate",
+        "time": "1.5 hours",
+        "description": "A small mountain that splits Recreio and Macumba beaches.",
+        "length": "0.8 km",
+        "elevation": "125 m",
+        "highlights": ["Beach divide", "Ocean views", "Recreio peak"],
+        "image": "images/pontal.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Pico da Cocanha",
+        "difficulty": "Moderate",
+        "time": "2.5 hours",
+        "description": "Offers a unique view of the Tijuca peaks.",
+        "length": "2.0 km",
+        "elevation": "982 m",
+        "highlights": ["Tijuca view", "Granite peaks", "Quiet trail"],
+        "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 14,
+        "name": "Circuito das Grutas",
+        "difficulty": "Easy",
+        "time": "2 hours",
+        "description": "A circuit visiting several caves in Tijuca Forest.",
+        "length": "2.5 km",
+        "elevation": "150 m",
+        "highlights": ["Caves", "Forest shade", "Easy walking"],
+        "image": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 15,
+        "name": "Costão do Itacoatiara",
+        "difficulty": "Moderate",
+        "time": "2 hours",
+        "description": "A massive granite slope with an incredible view of the coast.",
+        "length": "1.2 km",
+        "elevation": "217 m",
+        "highlights": ["Granite climb", "Itacoatiara beach", "Niterói view"],
+        "image": "images/itacoatiara.jpg"
+    }
+]
