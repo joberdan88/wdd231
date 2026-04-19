@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Rio Chamber of Commerce - Discover">
+    <meta property="og:description"
+        content="Discover the beauty and items of interest in Rio de Janeiro. Explore landmarks, parks, and more.">
+    <meta property="og:image" content="https://joberdan88.github.io/wdd231/chamber/images/og-image.png">
+    <meta property="og:url" content="https://joberdan88.github.io/wdd231/chamber/discover.html">
+    <title>Rio Chamber of Commerce - Discover</title>
+    <meta name="author" content="Jonas Oberdan">
+    <meta name="description"
+        content="Discover the beauty and items of interest in Rio de Janeiro. Explore landmarks, parks, and more.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button id="menu-toggle">☰ Menu</button>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Discover Rio de Janeiro</h1>
+        
+        <div id="visitor-message" class="message-area"></div>
+
+        <section class="discover-grid" id="discover-container">
+            <!-- Cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rio Chamber of Commerce</p>
+        <p>Developed by Jonas Oberdan | WDD 231</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+</body>
+
+</html>

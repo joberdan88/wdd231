@@ -1,0 +1,119 @@
+/* Discover Page Styles */
+
+.message-area {
+    background-color: #e7f3ff;
+    border-left: 5px solid #0066cc;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.discover-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.discover-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.discover-card h2 {
+    margin-top: 0;
+    color: #004080;
+    font-size: 1.25rem;
+}
+
+.discover-card figure {
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.discover-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.discover-card address {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.discover-card p {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.discover-card button {
+    background: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.discover-card button:hover {
+    background: #004080;
+}
+
+/* Small Screens (320px to 640px) */
+@media (min-width: 320px) {
+    .discover-grid {
+        grid-template-areas:
+            "card1"
+            "card2"
+            "card3"
+            "card4"
+            "card5"
+            "card6"
+            "card7"
+            "card8";
+    }
+}
+
+/* Medium Screens (641px to 1024px) */
+@media (min-width: 641px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "card1 card1"
+            "card2 card3"
+            "card4 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+
+    /* Hover effect - only for medium and large */
+    .discover-card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "card1 card1 card2"
+            "card3 card4 card2"
+            "card5 card6 card6"
+            "card7 card8 card8";
+    }
+}
